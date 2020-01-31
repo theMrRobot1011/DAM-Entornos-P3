@@ -6,5 +6,4 @@ public class Array {
 		int[]numeros={1,25,5,15,10};
 
 	}
-
 }
