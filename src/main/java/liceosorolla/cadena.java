@@ -6,5 +6,9 @@ public class cadena {
 
 		String hola;
 	}
+	public static int longitud(String cadena) {
+		int longi=cadena.length();
+		return longi;
+	}
 
 }
