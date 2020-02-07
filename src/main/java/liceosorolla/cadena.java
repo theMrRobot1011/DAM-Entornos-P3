@@ -11,4 +11,8 @@ public class cadena {
 		int longitud=cadena.length();
 		return longitud;
 	}
+	public static String MayusMinus(String cadena) {
+		String mayusminus = cadena.toUpperCase()+" "+cadena.toLowerCase();
+		return mayusminus;
+	}
 }
