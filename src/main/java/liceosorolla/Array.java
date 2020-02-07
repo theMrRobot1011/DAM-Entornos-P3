@@ -21,6 +21,7 @@ public class Array {
 		System.out.println("La mediana es "+calcularMediana(numeros));
 		maximo = calculaMximo(numeros);
 		System.out.println("El numero mas alto es "+maximo);
+		System.out.println("El numeor mas bajo es "+minimo(numeros));
 	}
 	
 	  private static double calcularMediana(int[]numeros){
@@ -34,4 +35,13 @@ public class Array {
 			
 			return med;
 		}
+	  public static int minimo(int[]array) {
+		  int min=array[0];
+		  for(int i=0;i<array.length;i++) {
+			  if(array[i]<min) {
+				  min=array[i];
+			  }
+		  }
+		  return min;
+	  }
 }
